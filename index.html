@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Coffee Description</title>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+ 	<link href="https://fonts.googleapis.com/css?family=Merriweather:900" rel="stylesheet">
+ 	<link rel="stylesheet" href="flip_coffee.css">
+</head>
+
+<body>
+<div id="title">
+<h1>What's in your coffee?</h1>
+<p>Click on any drip name to see what it's made of!</p>
+</div>
+<div>  
+  <div class="row">
+  <div class="col-md-4">
+  	<div class="container">
+  	
+  	<div class="back">
+  		<img src="images/americano_description.png" alt="americano description"/>
+  	</div>
+  	
+  	<div class="front">
+  		<img src="images/americano.png" alt="americano"/>
+  	</div>
+  	
+  	</div>
+  </div>
+  
+  <div class="col-md-4">
+  	<div class="container">
+  		<div class="front">
+  			<img src="images/aulait.png" alt="aulait"/>
+  		</div>
+  		
+  		<div class="back">
+  			<img src="images/aulait_description.png" alt="aulait_description"/>
+  		</div>
+  	</div>
+  </div>
+  
+  <div class="col-md-4">
+  	<div class="container">
+  		<div class="front">
+  			<img src="images/cappuccino.png" alt="cappuccino">
+  		</div>
+  		
+  		<div class="back">
+  			<img src="images/cappuccino_description.png" alt="cappuccino_description"/>
+  		</div>
+  	</div>
+  </div>
+
+</div>
+  
+  <div class="row">
+  <div class="col-md-4">
+  	<div class="container">
+  	
+  	 <div class="front">
+  		<img src="images/coldbrew.png" alt="cold_brew"/>
+  	</div>
+  	
+  	<div class="back">
+  		<img src="images/coldbrew_description.png" alt="cold_brew_description"/>
+  	</div>
+  	
+  	</div>
+  </div>
+  
+  <div class="col-md-4">
+  	<div class="container">
+  		<div class="front">
+  			<img src="images/dripcoffee.png" alt="dripcoffee"/>
+  		</div>
+  		
+  		<div class="back">
+  			<img src="images/crap.png" alt="crap"/>
+  		</div>
+  	</div>
+  </div>
+  
+  <div class="col-md-4">
+  	<div class="container">
+  		<div class="front">
+  			<img src="images/espresso.png" alt="espresso">
+  		</div>
+  		
+  		<div class="back">
+  			<img src="images/espresso_description.png" alt="espresso_description"/>
+  		</div>
+  	</div>
+  </div>
+
+</div>
+
+
+
+  <div class="row">
+  <div class="col-md-4">
+  	<div class="container">
+  	
+  	 <div class="front">
+  		<img src="images/flat_white.png" alt="flat_white"/>
+  	</div>
+  	
+  	<div class="back">
+  		<img src="images/flat_white_description.png" alt="flat_white_description"/>
+  	</div>
+  	
+  	</div>
+  </div>
+  
+  <div class="col-md-4">
+  	<div class="container">
+  		<div class="front">
+  			<img src="images/latte.png" alt="latte"/>
+  		</div>
+  		
+  		<div class="back">
+  			<img src="images/latte_description.png" alt="latte_description"/>
+  		</div>
+  	</div>
+  </div>
+  
+  <div class="col-md-4">
+  	<div class="container">
+  		<div class="front">
+  			<img src="images/macchiato.png" alt="macchiato">
+  		</div>
+  		
+  		<div class="back">
+  			<img src="images/macchiato_description.png" alt="macchiato_description"/>
+  		</div>
+  	</div>
+  </div>
+
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+  <div class="container">
+  		<div class="front">
+  			<img src="images/mocha.png" alt="mocha">
+  		</div>
+  		
+  		<div class="back">
+  			<img src="images/mocha_description.png" alt="mocha_description"/>
+  		</div>
+  	</div>
+  </div>
+
+  <div class="col-md-4">
+  <div class="container">
+  <p>Sources:
+  <p><a href="https://greatist.com/eat/visual-guide-to-coffee-drinks">Greatest</a></p>
+  <p><a href="http://www.latteartguide.com/2016/01/different-types-of-coffee.html">Latte Art Guide</a></p>
+  </div>
+  </div>
+  
+	<div class="col-md-4">
+
+	</div>
+</div>
+
+	<script
+  src="bower_components/jquery/dist/jquery.js"></script>
+  
+  <script>
+  $(document).ready(function() {
+  	$(".container").click(function(){
+  		$(this).toggleClass("flip");
+  	})
+  });
+  </script>
+    
+    </body>
+    </html>
